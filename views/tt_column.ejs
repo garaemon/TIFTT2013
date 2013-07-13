@@ -4,19 +4,19 @@
 </div>
 <div class="tt">
 <% for (var i = 9; i < 23; i++) { %>
-<div class="hour">
-  <div class="min-row-0-5"></div>
-  <div class="min-row-5-10"></div>
-  <div class="min-row-10-15"></div>
-  <div class="min-row-15-20"></div>
-  <div class="min-row-20-25"></div>
-  <div class="min-row-25-30"></div>
-  <div class="min-row-30-35"></div>
-  <div class="min-row-35-40"></div>
-  <div class="min-row-40-45"></div>
-  <div class="min-row-45-50"></div>
-  <div class="min-row-50-55"></div>
-  <div class="min-row-55-60"></div>
+<div class="hour" data-hour="<%= i %>">
+  <div data-min="0" class="min-row-0-5"></div>
+  <div data-min="5" class="min-row-5-10"></div>
+  <div data-min="10" class="min-row-10-15"></div>
+  <div data-min="15" class="min-row-15-20"></div>
+  <div data-min="20" class="min-row-20-25"></div>
+  <div data-min="25" class="min-row-25-30"></div>
+  <div data-min="30" class="min-row-30-35"></div>
+  <div data-min="35" class="min-row-35-40"></div>
+  <div data-min="40" class="min-row-40-45"></div>
+  <div data-min="45" class="min-row-45-50"></div>
+  <div data-min="50" class="min-row-50-55"></div>
+  <div data-min="55" class="min-row-55-60"></div>
 </div>
 <% } %>
 </div>

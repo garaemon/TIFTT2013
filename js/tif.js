@@ -14,8 +14,17 @@ $(function() {
                              .render({stage_name: "vinus church"}));
     $("#infocenter").append(new EJS({url: 'views/tt_column.ejs'})
                             .render({stage_name: "info center"}));
+    $("#time").append(new EJS({url: 'views/tt_column.ejs'})
+                      .render({stage_name: ""}));
+    
+    // 00
 
-
+    $("#time .hour").each(function() {
+        var hour = $(this).attr("data-hour");
+        $(this).find('[data-min="0"]').append('<div class="hour-title">' + hour + ":00" + '</div>');
+        $(this).find('[data-min="30"]').append('<div class="half-hour-title">' + hour + ":30" + '</div>');
+    });
+    
     function timeToTopPosition(hour, min) {
         var start_hour = 9;
         var hour_num = parseInt(hour, 10);
