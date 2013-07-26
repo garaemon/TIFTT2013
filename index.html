@@ -85,6 +85,8 @@ src="http://www.fujitv.co.jp/javascripts/rtx/rt_track.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js"></script>
 <script type="text/javascript" src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/js/scrollFollow.js"></script>
+<script type="text/javascript" src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/js/util.js"></script>
+
 <script type="text/javascript"> 
 	$(function ()
 		{
@@ -109,13 +111,30 @@ src="http://www.fujitv.co.jp/javascripts/rtx/rt_track.js"></script>
           <li class="time-attent">各会場の入場制限を行うことがございます。予めご了承ください。</li>
           <li class="time-attent">複数のステージが同時に進行しているため、ご希望のステージすべてをご覧いただくことができない場合がございます。
           予めご了承ください。</li>
+          
+          <li class="time-scroll" style="text-align:center;"><br />
+<a href="#27_last">7/27(土)の変更事項はこちら</a>　／　<a href="#28_last">7/28(日)の変更事項はこちら</a><br />
+         <br />
+         <span class="menu1">注）当日の変更事項はこのページに反映いたしません。<a href="https://twitter.com/TIF_staff" target="_blank"><span style="font-weight:bold; font-size:18px; color:#C00">公式ツイート</span></a> をご確認ください。</span>
+         </li>
         </ul>
       </div>
 
-<div id="menu"> <a href="https://twitter.com/TIF_staff" target="_blank"><img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/time_navi.png" border="0" /></a>
-<span class="menu1">UPDATE:2013.7.13.12:00</span><br />
-<a href="#27_top">7/27（土）TOP</a>　／　<a href="#27_10">10:00</a>　／　<a href="#27_12">12:00</a>　／　<a href="#27_14">14:00</a>　／　<a href="#27_16">16:00</a>　／　<a href="#27_18">18:00</a>　／　<a href="#27_last">LAST</a><br />
-<a href="#28_top">7/28（日）TOP</a>　／　<a href="#28_10">10:00</a>　／　<a href="#28_12">12:00</a>　／　<a href="#28_14">14:00</a>　／　<a href="#28_16">16:00</a>　／　<a href="#28_18">18:00</a>　／　<a href="#28_last">LAST</a>
+<div id="menu"><img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/time_navi.png" border="0" width="250px" />
+<span class="menu1">注）当日の変更事項はこのページに反映いたしません。<a href="https://twitter.com/TIF_staff" target="_blank"><span style="font-weight:bold; font-size:18px; color:#C00">公式ツイート</span></a> をご確認ください。</span><br />
+<a href="#day27">7/27（土）TOP</a>　／　<a href="#27_10">10:00</a>　／　<a href="#27_13">13:00</a>　／　<a href="#27_16">16:00</a>　／　<a href="#27_19">19:00</a>　／　
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time27.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+握手会</a>　／　<a href="#27_last">変更事項</a><br />
+<a href="#day28">7/28（日）TOP</a>　／　<a href="#28_10">10:00</a>　／　<a href="#28_13">13:00</a>　／　<a href="#28_16">16:00</a>　／　<a href="#28_19">19:00</a>　／　
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time28.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+握手会</a>　／<a href="#28_last">変更事項</a>
+</div>
+
+<div id="hand">
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time27.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/gre_btn27.png" border="0" style="margin-right:20px;"></a>
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time28.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/gre_btn28.png" border="0"></a>
 </div>
 
 <div id="day27"></div>
@@ -126,28 +145,51 @@ src="http://www.fujitv.co.jp/javascripts/rtx/rt_track.js"></script>
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_01.png" width="835" alt="" border="0" id="27_top">
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_02.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_10">
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_03.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_12">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_04.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_14">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_05.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_16">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_06.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_18">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_07.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_last">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_04.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_13">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_05.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_15">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_06.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_16">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_07.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_18">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_08.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_19">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_09.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_20">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_27_10.png" width="835" alt="" border="0" style="margin-top:-5px;" id="27_last">
 </div>
 
-<br />
+      <div id="time-att" style="margin-top:20px; margin-bottom:10px;">
+      	<h4>【7/27 変更事項】UPDATE:2013.7.15 (15:30)</h4>
+        <ul>
+          <li class="time-attent">HOT STAGE　東京女子流とDorothy Little Happyの出演時間が差し替えとなりました。</li>
+        </ul>
+      </div>
 <p class="time-scroll"><a href="#top">ページ最上部に戻る</a></p>
 <br />
+<div id="hand">
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time27.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/gre_btn27.png" border="0" style="margin-right:20px;"></a>
+<a href="javascript:void(0);" onclick="showPopUp('http://idolfes.com/2013/time/time28.html','subwin','width=800,height=800,resizable=1,scrollbars=yes,left=0,top=0'); return flase;">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/gre_btn28.png" border="0"></a>
+</div>
+
 <div id="day28"></div>
 <div id="time-ttl-top">2013/7/28（日）タイムテーブル　　　<span class="time-scroll"><a href="#day27">⇒7/27（土）のタイムテーブルへ</a></span></div>
 <div id="table">
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_01.png" width="835" alt="" border="0" id="28_top">
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_02.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_10">
 <img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_03.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_12">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_04.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_14">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_05.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_16">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_06.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_18">
-<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_07.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_last">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_04.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_13">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_05.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_15">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_06.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_16">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_07.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_18">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_08.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_19">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_09.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_20">
+<img src="http://idolfes.com/2013/system/wp-content/themes/ali-han-neon/images/timetable2013_28_10.png" width="835" alt="" border="0" style="margin-top:-5px;" id="28_last">
 </div>
-<br />
-<br />
+
+      <div id="time-att" style="margin-top:20px; margin-bottom:10px;">
+      	<h4>【7/28 変更事項】UPDATE:2013.7.26 (12:00)</h4>
+        <ul>
+          <li class="time-attent">INFO CENTRE 放課後プリンセスの出演時間が 15：45～16：00 ⇒ 14：00～14：15 に変更となりました。</li>
+        </ul>
+      </div>
 <p class="time-scroll"><a href="#day27">7/27（土）のタイムテーブルトップへ</a>　／　<a href="#day28">7/28（日）のタイムテーブルトップへ</a></p>
 <br />
 <p class="time-scroll"><a href="#top">ページ最上部に戻る</a></p>
